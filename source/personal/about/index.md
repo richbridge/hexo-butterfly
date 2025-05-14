@@ -42,9 +42,3 @@ date: 2020-01-01 00:00:00
 
 
 
-## 博客更新
-
-hexo douban
-hexo bangumi -u
-hexo cinema -u
-hexo game -u

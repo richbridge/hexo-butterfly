@@ -26,8 +26,8 @@ menu:
     音乐: /life/music/ || fas fa-music
     影院: /life/movies/ || fas fa-video
     游戏: /life/games/ || fas fa-gamepad
-  八宝箱 || fas fa-box||hide:
-    画廊: /box/gallery/ || fas fa-palette
+  宝箱 || fas fa-box||hide:
+    相册: /box/gallery/ || fas fa-palette
     动画: /box/animation/ || fas fa-radiation
     网址导航: /box/nav/ || fas fa-star # fas fa-list
   社交 || fas fa-square-share-nodes||hide:
@@ -39,7 +39,7 @@ menu:
     文章统计: /site/echarts/ || fas fa-chart-area # fas fa-chart-bar
     旧时光: /site/time/ || fas fa-dna
   记录 || fas fa-record-vinyl||hide:
-    追番: /records/bangumi/ || fas fa-b
+    追番: /bangumis/ || fas fa-b
     看书: /books/ || fas fa-book
     观影: /movies/ || fas fa-film
     游戏: /games/ || fas fa-gamepad
@@ -80,7 +80,7 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: https://s2.loli.net/2025/03/28/W1un7SNJaT2UCA9.png
+favicon: https://s2.loli.net/2025/05/14/8EFalAWHxfJtBoY.png
 
 avatar:
   img: https://s2.loli.net/2025/04/30/9xlWLkDdtSIe2Mz.jpg
@@ -1073,7 +1073,7 @@ inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
   bottom:
-    # - <script async src="//at.alicdn.com/t/c/font_4915201_9z9gc52jeuw.js"></script>
+    - <script async src="/js/custom.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
