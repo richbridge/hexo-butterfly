@@ -7,14 +7,14 @@ title: RICH🥝梵の刹
 subtitle: 学习の分享
 description: 'Future is rich 🍭🍭🍭'
 keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,Fomalhaut,rich,fan,richfan,梵刹,樊刹,python,flask,butterfly'
-author: Rich🥝
+author: 🥝Rich
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://262252.xyz
-permalink: /posts/:title/ # :year/:month/:day/:title/
+url: http://example.com
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -95,31 +95,13 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-# tag-plugins-plus
-# see https://akilar.top/posts/615e2dec/
-tag_plugins:
-  enable: true # 开关
-  priority: 5 #过滤器优先权
-  issues: false #issues标签开关
-  link:
-    placeholder: /img/link.png #link_card标签默认的图标图片
-  CDN:
-    anima: /css/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: /js/jquery.min.js #issues标签依赖
-    issues: /js/issues.js #issues标签依赖
-    iconfont: //at.alicdn.com/t/c/font_4915201_kalfvdnknwa.js #参看https://akilar.top/posts/d2ebecef/
-    carousel: /js/carousel-touch.js
-    tag_plugins_css: /css/tag_plugins.css
-    ghcard_url: https://github-readme-stats.vercel.app #API仓库https://github.com/anuraghazra/github-readme-stats
-
 plugins:
   - hexo-algoliasearch
-# hexo-algoliasearch(可以匹配内容)
 algolia:
   appId: "FTZP2J6FCQ"
   apiKey: "e45ee8cb7e57f59fdfc446a93c960064"
   adminApiKey: "9cbc92febdae304c2e2c1e0f5610027b"
-  chunkSize: 
+  chunkSize: 5000
   indexName: "hexo-butterfly"
   fields:
     - content:strip:truncate,0,500
@@ -131,59 +113,8 @@ algolia:
     - tags
     - title
 
-  # Artitalk
-  # see https://artitalk.js.org/
-  artitalk:
-    enable: true
-    appId: yXUtYidgfojjSwa6aQvAoqiC-MdYXbMMI
-    appKey: lFV9G9n6qh1b3Mqmjhr5gTQX
-    path:
-    js:
-    option: 
-      color1: 'linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%)'  # 说说背景色1（默认是橙色）
-      color2: 'linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%)'  # 说说背景色2（默认是绿色）
-      color3: '#4c4948'  # 说说文字内容颜色（默认是白色）
-
-douban:
-  id: 162448367
-  book:
-    title: "看书"
-  movie:
-    title: "观影"
-  game:
-    title: "游戏"
-  song:
-    title: "听歌"
-
-# 追番插件
-# https://github.com/HCLonely/hexo-bilibili-bangumi
-bangumi: # 追番设置
-  enable: true
-  source: bili
-  path:
-  vmid: 372204786
-  title: "追番列表"
-  quote: "生命不息，追番不止！"
-  show: 1
-  lazyload: false
-  loading:
-  showMyComment: false
-  pagination: false
-  metaColor:
-  color:
-  webp:
-  progress:
-  extraOrder:
-  proxy:
-    host: "代理host"
-    port: "代理端口"
-  extra_options:
-    top_img: false
-    lazyload:
-      enable: false
-
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: solitude
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
