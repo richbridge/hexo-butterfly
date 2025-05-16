@@ -140,9 +140,9 @@ aside:
       img: https://s2.loli.net/2025/04/16/enTsuYU9mEjK2R8.jpg # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 只有迎风，风筝才能飞得更高。
+    description: Future is Rich 🍭🍭🍭 # 只有迎风，风筝才能飞得更高。
     # 内容 / Content
-    content: # 这是我的博客 / This is my Blog
+    content: 学习の分享 # 这是我的博客 / This is my Blog
     state:
       morning: ✨ 早上好，新的一天开始了
       noon: 🍲 午餐时间
@@ -150,9 +150,9 @@ aside:
       night: 早点休息
       goodnight: 晚安 😴
     witty_words:
-      # - 你可以的
-      # - 你一定可以的
-      # - 祝你好运，陌生人
+      - 你可以的
+      - 你一定可以的
+      - 祝你好运，陌生人
     # social
     # 社交信息图标
     information:
