@@ -47,3 +47,10 @@ links:
         topimg: https://assets.btwoa.com/gif/author.gif # 如果是card模式下，将显示
         tag: 博主
         color: vip
+      - name: BiuXin's Blog - 东方月初 # 友链名称
+        link: https://blog.biuxin.com/ # 友链地址
+        avatar: https://serv.200038.xyz/2024/11/06/027080.gif # 显示头像
+        descr: 我是一位正在努力学习的小白。感谢你的到访，希望这里可以有你需要的东西 # 友链简介
+        topimg: https://serv.200038.xyz/2024/11/06/027080.gif # 如果是card模式下，将显示
+        tag: 博主
+        color: vip

@@ -13,8 +13,8 @@ title: 关于本站
 
 contentinfo: # 顶部个人信息展示
   sup: 你好，很高兴认识你👋
-  name: 我叫王卓Sco # 名称
-  title: 是一名学生、软件工程师、独立开发者、博主 # 介绍
+  name: 我叫Rich # 名称
+  title: 是一名财务、软件、设计、博主在途生 # 介绍
   tip: 追求
   slogan: 源于<br>热爱而去创造
   mask:
@@ -118,7 +118,7 @@ likes:
         href: https://movie.douban.com/subject/30402296/
         cover: https://images.418121.xyz/file/blog/covers/p2558022335.webp
     button: true # false 可以关闭右边按钮
-    button_link: "/pyq/"  # 跳转路径
+    button_link: "/moments/"  # 跳转路径
     button_text: "观看记录"   # 按钮文字
   - type: like-technology
     bg: https://7.isyangs.cn/1/65eb2e3d6616b-1.png
@@ -135,16 +135,16 @@ likes:
     button_link: /music/
 
 tj: # 统计
-  provider: # 值为 51la（51la网站统计）或 baidu（百度统计）
-  url: https://v6-widget.51.la/v6/3F15j2vtdTo7PPcN/quote.js # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
+  provider: 51la # 值为 51la（51la网站统计）或 baidu（百度统计）
+  url: https://sdk.51.la/js-sdk-pro.min.js?id=KooQENvm62t2Ov8y&ck=KooQENvm62t2Ov8y # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
   img: https://7.isyangs.cn/1/65eb2e9109826-1.png # 背景
 
 oneself: # 按需填写
-  location: 中国，湖南省 # 所在位置
-  birthYear: 2004 # 生日
-  university: 湖南大学 # 毕业学校
-  major: 软件工程 # 专业
-  occupation: 学生 # 职位
+  location: 中国，烟台市 # 所在位置
+  birthYear: 1989 # 生日
+  university: 深圳大学 # 毕业学校
+  major: 金融学 # 专业
+  occupation: 财务 # 职位
   map: # 你所在位置的地图
     light: https://7.isyangs.cn/1/65eb2ec63a9aa-1.png # 白天
     dark: https://7.isyangs.cn/1/65eb2eedc780e-1.png # 夜晚
