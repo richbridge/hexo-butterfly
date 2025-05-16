@@ -5,8 +5,8 @@ links:
     type: card # 显示方式，有两种 card / item
     suffix:
     link_list:
-      - name: Efu # 友链名称
-        link: https://www.efu.me # 友链地址
+      - name: 伍十七 # 友链名称
+        link: https://blog.efu.me # 友链地址
         descr: An Open Source worker. # 友链简介
         avatar: https://s3.qjqq.cn/47/660a7ece07609.webp!color # 显示头像
         topimg: https://s3.qjqq.cn/47/660a7ece07609.webp!color # 如果是card模式下，将显示
@@ -17,7 +17,25 @@ links:
     type: item
     suffix:
     link_list:
-      - name: isYangs # 友链名称
-        link: https://isyangs.cn # 友链地址
-        avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-        descr: 一个前端Bug构造师的博客 # 友链简介
+      - name: 张洪Heo # 友链名称
+        link: https://blog.zhheo.com/ # 友链地址
+        avatar: https://blog.zhheo.com/img/favicon4.0.webp # 显示头像
+        descr: 产品设计师、独立开发者、设计与科技领域自媒体博主 # 友链简介
+  - class_name: 技术
+    descr: 技术知识为主的博客
+    type: item
+    suffix:
+    link_list:
+      - name: LiuShen # 友链名称
+        link: https://blog.liushen.fun/ # 友链地址
+        avatar: https://blog.liushen.fun/favicon.ico # 显示头像
+        descr: 清羽飞扬的技术博客 | 提供建站教程、编程实战笔记、生活点滴，个人经验，融合技术开发与人文思考，定期更新深度指南与创意灵感，给大家提供更多帮助。 # 友链简介
+  - class_name: 技术
+    descr: 技术知识为主的博客
+    type: item
+    suffix:
+    link_list:
+      - name: ❖星港◎Star☆ # 友链名称
+        link: https://blog.starsharbor.com/ # 友链地址
+        avatar: https://blog.starsharbor.com/img/avatar.webp # 显示头像
+        descr: 以博客记录生活与热爱！ # 友链简介
