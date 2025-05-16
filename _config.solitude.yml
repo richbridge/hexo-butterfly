@@ -39,9 +39,10 @@ nav:
   menu:
     首页: / # name: link
     文库: # name
-      全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
-      全部分类: /categories/ || fas fa-clone
-      全部标签: /tags/ || fas fa-tags
+      文章: /archives/ || fas fa-folder-closed # item name: link || icon
+      分类: /categories/ || fas fa-clone
+      标签: /tags/ || fas fa-tags
+      统计: /charts/ || fas fa-chart-pie
     友链:
       朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
@@ -50,6 +51,7 @@ nav:
       我的装备: /equipment/ || fas fa-laptop
       在线工具: /tlink/ || fas fa-toolbox
       音乐馆: /music/ || fas fa-music
+      关于: /about/ || fas fa-user
 
   # Right button
   # 右侧按钮
@@ -226,7 +228,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      - /img/default.png # 默认图片 / default cover
+      - https://s2.loli.net/2025/05/16/WtzOFBvok4jpRZI.jpg # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -238,6 +240,7 @@ post:
     # 未设置封面时的默认图片
     cover:
       # -  # 默认图片 / default cover
+      - https://s2.loli.net/2025/05/16/WtzOFBvok4jpRZI.jpg
     # Location
     # 位置
     locate: China
@@ -357,10 +360,10 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: "PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
+  font-family: DYH, "PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
   # Code font
   # 代码字体
-  code-font-family: '"monospace", monospace'
+  code-font-family: 'DYH, "monospace", monospace'
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
