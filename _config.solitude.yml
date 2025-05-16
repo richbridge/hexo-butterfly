@@ -142,7 +142,7 @@ aside:
     # 介绍 / Introduction
     description: Future is Rich 🍭🍭🍭 # 只有迎风，风筝才能飞得更高。
     # 内容 / Content
-    content: 学习の分享 # 这是我的博客 / This is my Blog
+    content: 学习の分享<br />分享自己对美好生活的向往，对知识海洋探索历程。<br />相信您可以在这里找到对您有用的知识和教程。 # 这是我的博客 / This is my Blog
     state:
       morning: ✨ 早上好，新的一天开始了
       noon: 🍲 午餐时间
@@ -553,26 +553,26 @@ footer:
 
   # 备案
   beian:
-    # - name: 湘公网安备43048102000175号
-    #   icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
-    #   url: https://beian.mps.gov.cn/#/query/webSearch
+    - name: 萌ICP备20250629号
+      icon: https://icp.gov.moe/images/ico64.png
+      url: https://icp.gov.moe/?keyword=20250629
     # - name: 湘ICP备2024080357号-1
     #   url: https://beian.miit.gov.cn/
 
   # 页脚信息文字
   links:
-    # - name: RSS
-    #   url: /atom.xml
-    # - name: License
-    #   url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
-    #   icon:
-    #     - fas fa-copyright
-    #     - fab fa-creative-commons-by
-    #     - fab fa-creative-commons-nc
-    #     - fab fa-creative-commons-nd
-    # - name: boringbay
-    #   url: https://boringbay.com/
-    #   img: https://boringbay.com/api/badge/www.efu.me
+    - name: RSS
+      url: /atom.xml
+    - name: License
+      url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
+      icon:
+        - fas fa-copyright
+        - fab fa-creative-commons-by
+        - fab fa-creative-commons-nc
+        - fab fa-creative-commons-nd
+    - name: boringbay
+      url: https://boringbay.com/
+      img: https://boringbay.com/api/badge/www.efu.me
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
