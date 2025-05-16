@@ -258,7 +258,7 @@ post:
   # Article Local AI
   # 文章本地AI
   ai:
-    enable: true
+    enable: false
     modelName: RICH🥝GPT
   # Article meta information
   # 文章元信息
@@ -421,34 +421,34 @@ related_post:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: false
+  enable: true
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: false
+  commentBarrage: true
   # Whether to display the browser's context menu when hold Ctrl key.
   # 是否在按住 Ctrl 键时显示浏览器右键菜单
-  ctrlOriginalMenu: false
+  ctrlOriginalMenu: true
   # Simplified and Traditional Chinese translation.
   # 简繁体转换
-  translate: false
+  translate: true
   # Custom list
   # 自定义列表
   custom_list:
-    # - name: 随机文章
-    #   click: toRandomPost()
-    #   id: menu-randomPost
-    #   class:
-    #   icon: fas fa-tower-broadcast
-    # - name: 全部分类
-    #   click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
-    #   id:
-    #   class:
-    #   icon: fas fa-clone
-    # - name: 全部标签
-    #   click: pjax.loadUrl('/tags/')
-    #   id:
-    #   class:
-    #   icon: fas fa-tags
+    - name: 随机文章
+      click: toRandomPost()
+      id: menu-randomPost
+      class:
+      icon: fas fa-tower-broadcast
+    - name: 全部分类
+      click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
+      id:
+      class:
+      icon: fas fa-clone
+    - name: 全部标签
+      click: pjax.loadUrl('/tags/')
+      id:
+      class:
+      icon: fas fa-tags
 # --------------------------- end -----------------------
 
 # --------------------------- start ---------------------------
@@ -549,7 +549,7 @@ footer:
     #   Copyright: /copyright/
 
   # 随机友链
-  randomlink: false # 随机友链
+  randomlink: true # 随机友链
 
   # 备案
   beian:
@@ -633,7 +633,7 @@ keyboard:
 # Lazyload
 # 图片懒加载
 lazyload:
-  enable: false
+  enable: true
   # post, site
   field: site
   # 加载时替换图
@@ -838,9 +838,9 @@ waline: # https://waline.js.org/
 valine:
   appId: HSyJnxWh6xgOW5tISuT03C4U-gzGzoHsz # leancloud application app id
   appKey: VenFYCgU7sCSQBGy3MVBFBOK # leancloud application app key
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  avatar: # https://valine.js.org/avatar.html
-  visitor: false
+  serverURLs: https://hsyjnxwh.lc-cn-n1-shared.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  avatar: mp # https://valine.js.org/avatar.html
+  visitor: true
   style: true # Use custom styles when turned on
   option: # options list
 # Artalk: https://solitude.js.org/comment/artalk
