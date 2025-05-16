@@ -32,7 +32,6 @@ jobs:
       - name: 生成静态文件
         run: |
           node ./link.js
-          hexo generate
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
