@@ -31,9 +31,12 @@ nav:
   # Left Box
   # 左侧盒子
   group:
-  #  project: # name
-  #    Solitude: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
-
+    🦄常用网站:  # name
+      梵の刹: https://richfan.site || https://s2.loli.net/2025/05/14/8EFalAWHxfJtBoY.png # name: url || icon
+    😎周边站点:
+      梵の刹: https://richfan.eu.org/ || https://s2.loli.net/2025/05/14/8EFalAWHxfJtBoY.png # name: url || icon
+    🚁实用工具:
+      梵の刹: https://252262.xyz/ || https://s2.loli.net/2025/05/14/8EFalAWHxfJtBoY.png # name: url || icon
   # Menu
   # 菜单
   menu:
@@ -258,7 +261,7 @@ post:
   # Article Local AI
   # 文章本地AI
   ai:
-    enable: false
+    enable: true
     modelName: RICH🥝GPT
   # Article meta information
   # 文章元信息
@@ -381,9 +384,9 @@ background:
 # When the user exits the page, modify the title
 # 当用户退出页面时，修改标题
 lure:
-  enable: false
-  jump: 404 Not Found
-  back: ヾ(≧∇≦*)ゝHey, hey, you fell for it.
+  enable: true
+  jump: 👀跑哪里去了~
+  back: ⋆.˚🦋༘⋆抓到你啦~
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
